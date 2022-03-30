@@ -1,0 +1,32 @@
+{
+	"inputs":{
+"input_ifc": 
+	{"id": "62403f3160570063b9428ac2",
+		"_id": "62403f3160570063b9428ac2",
+		"ingestion": {"status": "completed"},
+		"categories": [],
+		"hidden": false,
+		"published": true,
+		"source": {"name": "data-manager"},
+		"project": "624092d46c2d0d000746df13",
+		"format": "ifc",
+		"components": [
+			{"status": "available",
+			"name": "file",
+			"checksum": "793a849994c04f60c72869a4c865639b",
+			"filename": "SimplifiedMupaniSouthWorkshop.las",
+			"size": 687535,
+			"path": "/home/work_dir/SimplifiedMupaniSouthWorkshop.las"}],
+		"name": "Feraillage 3D RADIER IFCSITE",
+		"type": "file",
+		"company": "5c1a2567b3c575583e8a650d",
+		"creation_user": "5c541b68e693b21b8cd5f5c3",
+		"modification_user": "5c541b68e693b21b8cd5f5c3",
+		"creation_date": "2022-03-27T10:40:49.188Z",
+		"modification_date": "2022-03-27T10:40:51.453Z", "publication_date": "2022-03-27T10:40:49.188Z", "publication_user": "5c541b68e693b21b8cd5f5c3"}
+	},
+
+	"parameters":{
+		"x_offset":0
+	}
+}

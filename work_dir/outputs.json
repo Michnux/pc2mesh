@@ -1,0 +1,1 @@
+{"outputs": {"output_mesh": {"type": "mesh", "format": "obj", "name": "output_mesh", "components": [{"name": "mesh", "path": "/home/work_dir/output.obj"}]}}, "version": "0.1"}

@@ -1,0 +1,11 @@
+*.pyc
+*.glb
+*.ifc
+*.las
+*.obj
+
+LocalTests*
+
+DockerRegistryCredentials.json
+config-connections.json
+dockerhub-credentials.json
