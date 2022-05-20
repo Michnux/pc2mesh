@@ -5,17 +5,17 @@ import alteia
 sdk = alteia.SDK(config_path='./config-connections.json')
 
 
-analytic = sdk.analytics.search(name="alteiademo/pc2mesh")
+analytic = sdk.analytics.search(name="agnicoeagledevelopment/pc2mesh")
 if len(analytic)>0:
 	analytic=analytic[0]
 	sdk.analytics.delete(analytic=analytic.id)
 
-sdk.analytics.create(name="alteiademo/pc2mesh",
+sdk.analytics.create(name="agnicoeagledevelopment/pc2mesh",
 	version="1.0.0",
 	display_name="pc2mesh",
 	description="Generates a Mesh from a .las file - - - ",
 	docker_image="registry-1.docker.io/michaeldelagarde/pc2mesh:latest",
-	company="5c1a2567b3c575583e8a650d",
+	company="627cfd46193a2300078b53b1",
 	instance_type='small',
 	volume_size=20,
 	inputs=[{
@@ -87,5 +87,4 @@ sdk.analytics.create(name="alteiademo/pc2mesh",
 	# 	"required": False
 	# }
 	],
-	tags=["croquette"],
 	groups=["UTILS"])
